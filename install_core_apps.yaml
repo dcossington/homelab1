@@ -6,7 +6,6 @@
     - name: update APT Cache
       apt:
         update_cache: yes
-        force_apt_get: yes
 
     - name: remove apt lock file
       file:
