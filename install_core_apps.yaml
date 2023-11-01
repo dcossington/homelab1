@@ -2,10 +2,10 @@
 - hosts: all
   become: true
 
-  tasks:
-    - name: update APT Cache
-      apt:
-        update_cache: yes
+  #tasks:
+    #- name: update APT Cache
+      #apt:
+        #update_cache: yes
 
     - name: remove apt lock file
       file:
