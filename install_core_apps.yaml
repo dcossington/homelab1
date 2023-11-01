@@ -12,8 +12,9 @@
       file:
         state: absent
         path: "/var/lib/dpkg/lock"
-            - name: "Install extra tools"
-        apt:
+
+    - name: "Install extra tools"
+      apt:
         name:
          - curl
          - net-tools
